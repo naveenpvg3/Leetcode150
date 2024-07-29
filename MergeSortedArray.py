@@ -14,3 +14,5 @@ class Solution:
                 while n > 0:
                       nums1[last] = nums2[n-1]
                       last, n = last-1, n-1 
+
+            #Time Complexity: O(m + n) Space Complexity: O(1)
